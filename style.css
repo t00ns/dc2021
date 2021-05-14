@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "VG5000";
+    src: url("VG5000-Regular_web.woff2"),
+         url("VG5000-Regular_web.woff");
+}
+
+body {
+    background-color: #F5FBF0;
+    cursor: url("cursor-alt.png"), crosshair;
+    font-family: "VG5000";
+    color: #2E3D51;
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #2E3D51;
+}
+
+a:hover {
+    color: #FD7761;
+    font-weight: 700;
+    transition: 0.25s;
+    cursor: url("cursor-alt.png"), crosshair;
+}
+
+a#info {
+    color: #F5FBF0;
+}
+
+a#info:hover {
+    color: #2E3D51;
+}
+
+header {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+
+.info {
+    background-color: #FD7761;
+    color: #F5FBF0;
+    padding: 16px 30px;
+    width: 550px;
+    overflow-y: scroll;
+    height: 100vh;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.hewwo {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    display: block;
+    width: 500px;
+    padding: 24px 0;
+}
+
+.wyd {
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    display: block;
+    padding: 32px 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-family: "VG5000";
+    color: #2E3D51;
+    border: solid 5px #2E3D51;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 32px;
+    padding: 12px 40px;
+    margin-right: 16px;
+
+}
+
+button:hover {
+    border: none;
+    background-color: #D0D1F5;
+    color: #F5FBF0;
+    transition: 0.2s;
+    cursor: url("cursor-alt.png"), crosshair;
+}
+
+footer {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+    padding: 8px 0;
+}

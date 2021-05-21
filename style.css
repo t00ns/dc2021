@@ -15,14 +15,17 @@ body {
     overflow: hidden;
 }
 
-.boop {
-    width: 100vh;
-    height: 100vh;
-    background-image: url(boop.png);
-    background-size: 75%;
-    background-repeat: no-repeat;
-    z-index: -2;
+#boop {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 0.1s;
+    pointer-events: none;
 }
+
+#boop img {
+    width: 75%;
+}
+
 
 h1 {
     font-size: 72px;
@@ -123,7 +126,7 @@ button {
     font-family: "VG5000";
     color: #2E3D51;
     border: solid 5px #2E3D51;
-    background-color: transparent;
+    background-color: #F5FBF0;
     border-radius: 10px;
     font-size: 32px;
     padding: 12px 40px;

@@ -1,6 +1,8 @@
-const boop = document.querySelector("#boop")
+let boop = document.getElementById('boop')
 
-boop.addEventListener("mousemove", (e) => {
-    boop.style.backgroundPositionX = -e.offsetX + "px"
-    boop.style.backgroundPositionY = -e.offsetY + "px"
+document.addEventListener('mousemove', function(e) {
+    var x = e.clientX
+    var y = e.clientY
+    boop.style.left = x + "px"
+    boop.style.top = y + "px"
 })

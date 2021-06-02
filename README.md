@@ -1,4 +1,4 @@
-# dc2021
+# my main website
  new simple website that works as a primary hub for all of my project & social media links.
  
 Style board, mock up & prototype on Figma: 
